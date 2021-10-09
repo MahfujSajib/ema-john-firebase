@@ -25,11 +25,11 @@ function App() {
           <Route path="/inventory">
             <Inventory></Inventory>
           </Route>
-          <Route path="/placeorder">
-            <PlaceOrder></PlaceOrder>
-          </Route>
           <Route path="*">
             <NotFound></NotFound>
+          </Route>
+          <Route path="/placeorder">
+            <PlaceOrder></PlaceOrder>
           </Route>
         </Switch>
       </Router>
